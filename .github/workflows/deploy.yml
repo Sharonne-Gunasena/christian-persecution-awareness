@@ -1,0 +1,59 @@
+name: Deploy to GitHub Pages
+
+# Also runs every 6 hours so the Headlines page stays current: each run fetches the
+# latest feed items into public/data/headlines.json, then builds and deploys.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+
+# contents: write is only used by the "Save headlines" step.
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      # If the feeds can't be reached, the committed headlines.json is used as it is.
+      - run: npm run headlines
+        continue-on-error: true
+      # Feeds only hold the last day or two of stories, so the merged list is committed back
+      # to keep up to 60 days of headlines. Commits made with GITHUB_TOKEN don't trigger
+      # another run, so this can't loop.
+      - name: Save headlines
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/headlines.json
+          git diff --cached --quiet || (git commit -m "Update headlines" && git push)
+        continue-on-error: true
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

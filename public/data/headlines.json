@@ -1,0 +1,23 @@
+{
+  "updated": "2026-10-30T19:33:57.525Z",
+  "sources": [
+    {
+      "name": "BBC News",
+      "termsUrl": "https://www.bbc.co.uk/news/10628494"
+    }
+  ],
+  "items": [
+    {
+      "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
+      "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-27T02:40:17.000Z",
+      "source": "BBC News"
+    },
+    {
+      "title": "Jordan arrests three men suspected of deadly church attack after shootout",
+      "link": "https://www.bbc.co.uk/news/articles/cm4g17qq8wz4o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-10-26T11:01:16.000Z",
+      "source": "BBC News"
+    }
+  ]
+}

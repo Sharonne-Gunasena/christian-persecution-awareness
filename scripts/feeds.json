@@ -1,0 +1,66 @@
+{
+  "_readme": "Only enable a feed after checking that its publisher allows its headlines to be shown on another website. Record what you checked in termsNote. See README.md.",
+  "feeds": [
+    {
+      "source": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "enabled": true,
+      "filter": true,
+      "termsUrl": "https://www.bbc.co.uk/news/10628494",
+      "termsNote": "BBC: 'We encourage the use of BBC News feeds as part of a website' with attribution as 'BBC News' and no BBC logos. Checked 30 Oct 2026."
+    },
+    {
+      "source": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/africa/rss.xml",
+      "enabled": true,
+      "filter": true,
+      "termsUrl": "https://www.bbc.co.uk/news/10628494",
+      "termsNote": "Same BBC feed terms as above."
+    },
+    {
+      "source": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/asia/rss.xml",
+      "enabled": true,
+      "filter": true,
+      "termsUrl": "https://www.bbc.co.uk/news/10628494",
+      "termsNote": "Same BBC feed terms as above."
+    },
+    {
+      "source": "BBC News",
+      "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
+      "enabled": true,
+      "filter": true,
+      "termsUrl": "https://www.bbc.co.uk/news/10628494",
+      "termsNote": "Same BBC feed terms as above."
+    },
+    {
+      "source": "Christianity Today",
+      "url": "https://www.christianitytoday.com/feed/",
+      "enabled": false,
+      "filter": true,
+      "termsUrl": "https://www.christianitytoday.com/terms-of-use/",
+      "termsNote": "Its old RSS terms allowed non-commercial use with attribution, but that page no longer loads, and its general terms forbid copying content to another site 'unless otherwise authorized'. Ask CT before enabling."
+    },
+    {
+      "source": "Open Doors UK & Ireland",
+      "url": "https://www.opendoorsuk.org/feed/",
+      "enabled": false,
+      "filter": false,
+      "termsUrl": "https://www.opendoorsuk.org/terms-and-conditions/",
+      "termsNote": "Charity news feed covering persecution directly. No feed terms found. Ask Open Doors before enabling."
+    },
+    {
+      "source": "Morning Star News",
+      "url": "https://morningstarnews.org/feed/",
+      "enabled": false,
+      "filter": false,
+      "termsUrl": "https://morningstarnews.org/",
+      "termsNote": "Specialist news service on persecution of Christians. No reuse terms found. Ask before enabling."
+    }
+  ],
+  "excluded": [
+    { "source": "Vatican News", "reason": "Legal notes forbid reproducing content or even linking to it without written permission." },
+    { "source": "Catholic News Agency", "reason": "Says reuse of material from its RSS feeds needs its Service for Editors or express permission." },
+    { "source": "The Guardian", "reason": "Terms limit use to personal, non-commercial use; aggregators need an NLA licence." }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "_readme": "exclude: links the keyword filter picked up that are not about faith-based persecution. add: headlines you have checked yourself (title, source, date as YYYY-MM-DD, link). Only use the outlet's own headline, never article text.",
+  "_readme": "exclude: links the keyword filter picked up that are not about faith-based persecution. add: headlines checked by hand or by the daily search agent: { title, source, date (YYYY-MM-DD), link, country?, why? }. Use the outlet's own headline exactly, never article text. Entries older than 60 days can be removed.",
   "exclude": [
     "https://www.bbc.co.uk/news/videos/cvj64lr7dnn4o"
   ],

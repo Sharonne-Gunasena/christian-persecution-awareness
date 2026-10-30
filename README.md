@@ -43,6 +43,18 @@ Edit `scripts/curation.json`:
 
 Then run `npm run headlines` (or push and let the workflow do it).
 
+### Daily search agent
+
+Feeds only cover outlets whose terms allow automatic use. To find reporting from other reputable outlets, a scheduled Claude cloud agent ("routine") runs **every day at 8am Dublin time**:
+
+1. It searches the web for reporting from the last few days on Christians killed, attacked, abducted, detained or otherwise persecuted for their faith.
+2. It keeps only stories from established news organisations, specialist religious-freedom outlets or the charities listed on the site, where the article itself reports faith as a motive or context. It opens each link to check that it works and that the headline and date match.
+3. It adds each one to `add` in `scripts/curation.json` (headline exactly as published, source, date, link), skipping duplicates and blocked publishers, and removes entries older than 60 days.
+4. It runs `npm test`. `tests/curation.test.js` checks every entry, so a malformed entry stops the update. If the tests pass, it commits to `main` and the deploy workflow publishes the site.
+5. If a **new edition** of the Open Doors, ACN, Pew or USCIRF report is out, it does **not** change the statistics. It opens a GitHub issue with the new figures and links, so a person can check them before `src/data/statistics.js` is updated.
+
+The routine is managed at [claude.ai/code/routines](https://claude.ai/code/routines). Pause or delete it there. To undo something it added, delete the entry from `add` (or add its link to `exclude`) and push.
+
 ### Feed terms (checked 30–31 October 2026)
 
 A feed is only enabled after checking that its publisher allows headlines to be shown on another website.

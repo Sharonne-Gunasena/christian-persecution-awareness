@@ -12,6 +12,7 @@ describe('isRelevant', () => {
   it('drops general church news and unrelated violence', () => {
     expect(isRelevant('Church of England synod votes on new rules')).toBe(false);
     expect(isRelevant('Flooding kills dozens after heavy rain')).toBe(false);
+    expect(isRelevant('Killed almost 430 years ago, 5 Catholic friars will soon be one step from sainthood')).toBe(false);
   });
 });
 

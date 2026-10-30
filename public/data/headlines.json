@@ -1,12 +1,46 @@
 {
-  "updated": "2026-10-30T23:07:26.559Z",
+  "updated": "2026-10-30T23:15:34.136Z",
   "sources": [
+    {
+      "name": "Christian Today",
+      "termsUrl": "https://www.christiantoday.com/rss-feeds"
+    },
     {
       "name": "BBC News",
       "termsUrl": "https://www.bbc.co.uk/news/10628494"
     }
   ],
   "items": [
+    {
+      "title": "Violence and persecution driving global Christian exodus, report warns",
+      "link": "https://www.christiantoday.com/news/violence-and-persecution-driving-global-christian-exodus-report-warns",
+      "date": "2026-10-28T11:42:00.000Z",
+      "source": "Christian Today"
+    },
+    {
+      "title": "More than 60 killed in attacks on Ethiopian Christians, Orthodox Church says",
+      "link": "https://www.christiantoday.com/news/more-than-60-killed-in-attacks-on-ethiopian-christians-orthodox-church-says",
+      "date": "2026-10-28T11:05:00.000Z",
+      "source": "Christian Today"
+    },
+    {
+      "title": "Jordan carries out retaliatory strikes in Syria after deadly church attack",
+      "link": "https://www.christiantoday.com/news/jordan-carries-out-retaliatory-strikes-in-syria-after-deadly-church-attack",
+      "date": "2026-10-28T09:46:00.000Z",
+      "source": "Christian Today"
+    },
+    {
+      "title": "Petition against anti-Christian violence in Africa aims for a million signatures",
+      "link": "https://www.christiantoday.com/news/petition-against-anti-christian-violence-in-africa-aims-for-a-million-signatures",
+      "date": "2026-10-28T09:02:00.000Z",
+      "source": "Christian Today"
+    },
+    {
+      "title": "Arrest of Christians in Egypt over TikTok comedy video condemned",
+      "link": "https://www.christiantoday.com/news/arrest-of-christians-in-egypt-over-tiktok-comedy-video-condemned",
+      "date": "2026-10-27T09:02:00.000Z",
+      "source": "Christian Today"
+    },
     {
       "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
       "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
@@ -18,6 +52,36 @@
       "link": "https://www.bbc.co.uk/news/articles/cm4g17qq8wz4o?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-26T11:01:16.000Z",
       "source": "BBC News"
+    },
+    {
+      "title": "Three arrests after deadly Jordan church attack",
+      "link": "https://www.christiantoday.com/news/three-arrests-after-deadly-jordan-church-attack",
+      "date": "2026-10-26T07:24:00.000Z",
+      "source": "Christian Today"
+    },
+    {
+      "title": "Yemen is key funding hub for Islamic State attacks on Christians - report",
+      "link": "https://www.christiantoday.com/news/yemen-is-key-funding-hub-for-islamic-state-attacks-on-christians-report",
+      "date": "2026-10-25T08:19:00.000Z",
+      "source": "Christian Today"
+    },
+    {
+      "title": "Christian widows in Nigeria hold fast to faith as they rebuild lives after violence",
+      "link": "https://www.christiantoday.com/news/christian-widows-in-nigeria-hold-fast-to-faith-as-they-rebuild-lives-after-violence",
+      "date": "2026-10-24T14:08:00.000Z",
+      "source": "Christian Today"
+    },
+    {
+      "title": "8 killed in attack on church in Jordan",
+      "link": "https://www.christiantoday.com/news/8-killed-in-attack-on-church-in-jordan",
+      "date": "2026-10-24T11:59:00.000Z",
+      "source": "Christian Today"
+    },
+    {
+      "title": "'Heinous' attack by Israeli settlers on Christian village denounced",
+      "link": "https://www.christiantoday.com/news/heinous-attack-by-israeli-settlers-on-christian-village-denounced",
+      "date": "2026-10-24T08:29:00.000Z",
+      "source": "Christian Today"
     }
   ]
 }

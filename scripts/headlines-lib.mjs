@@ -6,8 +6,12 @@ import { XMLParser } from 'fast-xml-parser';
 const CHRISTIAN = /\b(christians?|church(es)?|catholics?|priests?|pastors?|nuns?|parish(ioners)?|clergy|bishops?|worshippers?|congregations?|evangelicals?|coptic|copts?|orthodox|protestants?)\b/i;
 const HARM = /\b(kill(ed|ing|ings)?|attack(s|ed)?|persecut\w*|abduct\w*|kidnap\w*|massacre\w*|arrest(s|ed)?|detain(ed)?|bomb(s|ed|ing)?|shot|shooting|murder(s|ed)?|violence|blasphemy|burn(ed|t)?|torched|raid(s|ed)?|jailed|imprison\w*|displaced|gunmen|militants?|executed|martyr\w*)\b/i;
 
+// Historical and commemorative stories (saints, anniversaries) mention killings but aren't
+// current persecution.
+const HISTORICAL = /\b(sainthood|saints?|beatif\w*|canoni[sz]\w*|anniversary|centuries|\d+ years ago)\b/i;
+
 export function isRelevant(title) {
-  return CHRISTIAN.test(title) && HARM.test(title);
+  return CHRISTIAN.test(title) && HARM.test(title) && !HISTORICAL.test(title);
 }
 
 const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '' });

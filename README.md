@@ -43,13 +43,18 @@ Edit `scripts/curation.json`:
 
 Then run `npm run headlines` (or push and let the workflow do it).
 
-### Feed terms (checked 30 October 2026)
+### Feed terms (checked 30–31 October 2026)
 
 A feed is only enabled after checking that its publisher allows headlines to be shown on another website.
 
 | Source | Status | Why |
 | --- | --- | --- |
 | BBC News (World, Africa, Asia, Middle East) | **Enabled** | The [BBC feeds page](https://www.bbc.co.uk/news/10628494) says "We encourage the use of BBC News feeds as part of a website", with attribution as "BBC News" and no BBC logos. |
+| Christian Today | **Enabled** | Its [RSS page](https://www.christiantoday.com/rss-feeds) says "We encourage the use of Christian Today RSS feeds ... as part of a non-commercial Web site or blog", with proper attribution. |
+| Global Christian Relief | Off | Terms allow personal, non-commercial use only; other reproduction needs written permission. Ask first. |
+| Crux | Off | No reuse terms found. Ask first. |
+| International Christian Concern | Off | Charity news feed on persecution; no reuse terms found. Ask first. |
+| UCA News | Off | Footer says no part may be reproduced without prior permission. Ask first. |
 | Christianity Today | Off | The old RSS terms allowed non-commercial use with attribution, but that page no longer loads, and the current [terms of use](https://www.christianitytoday.com/terms-of-use/) forbid copying content to another site "unless otherwise authorized". Ask CT first. |
 | Open Doors UK & Ireland news | Off | Covers persecution directly, but no feed terms are published. Ask Open Doors first. |
 | Morning Star News | Off | Specialist persecution news service; no reuse terms found. Ask first. |

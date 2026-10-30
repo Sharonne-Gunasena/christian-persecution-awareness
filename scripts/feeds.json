@@ -34,6 +34,14 @@
       "termsNote": "Same BBC feed terms as above."
     },
     {
+      "source": "Christian Today",
+      "url": "https://www.christiantoday.com/rss.xml",
+      "enabled": true,
+      "filter": true,
+      "termsUrl": "https://www.christiantoday.com/rss-feeds",
+      "termsNote": "Christian Today: 'We encourage the use of Christian Today RSS feeds ... as part of a non-commercial Web site or blog', with proper attribution. This site is non-commercial. Checked 31 Oct 2026."
+    },
+    {
       "source": "Christianity Today",
       "url": "https://www.christianitytoday.com/feed/",
       "enabled": false,
@@ -56,6 +64,38 @@
       "filter": false,
       "termsUrl": "https://morningstarnews.org/",
       "termsNote": "Specialist news service on persecution of Christians. No reuse terms found. Ask before enabling."
+    },
+    {
+      "source": "Global Christian Relief",
+      "url": "https://globalchristianrelief.org/feed/",
+      "enabled": false,
+      "filter": true,
+      "termsUrl": "https://globalchristianrelief.org/about-us/terms/",
+      "termsNote": "Terms allow personal, non-commercial use; other reproduction needs written permission. Ask before enabling."
+    },
+    {
+      "source": "Crux",
+      "url": "https://cruxnow.com/feed",
+      "enabled": false,
+      "filter": true,
+      "termsUrl": "https://cruxnow.com/",
+      "termsNote": "Catholic news site. No reuse terms found. Ask before enabling."
+    },
+    {
+      "source": "International Christian Concern",
+      "url": "https://persecution.org/feed/",
+      "enabled": false,
+      "filter": false,
+      "termsUrl": "https://persecution.org/",
+      "termsNote": "Charity news feed on persecution. No reuse terms found. Ask before enabling."
+    },
+    {
+      "source": "UCA News",
+      "url": "https://www.ucanews.com/rss/news",
+      "enabled": false,
+      "filter": true,
+      "termsUrl": "https://www.ucanews.com/terms-and-conditions",
+      "termsNote": "Asia-focused Catholic news. Footer says 'No part of this publication may be reproduced without prior permission.' Ask before enabling."
     }
   ],
   "excluded": [

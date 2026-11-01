@@ -3,5 +3,54 @@
   "exclude": [
     "https://www.bbc.co.uk/news/videos/cvj64lr7dnn4o"
   ],
-  "add": []
+  "add": [
+    {
+      "title": "Christians in India Lose Ancestral Home for Faith in Christ",
+      "source": "Morning Star News",
+      "date": "2026-10-30",
+      "link": "https://morningstarnews.org/2026/10/christians-in-india-lose-ancestral-home-for-faith-in-christ/",
+      "country": "India",
+      "why": "A family was told to return to Hinduism or leave the village, and left after a mob attack."
+    },
+    {
+      "title": "Authorities in Egypt Hold Christian Incommunicado",
+      "source": "Morning Star News",
+      "date": "2026-10-27",
+      "link": "https://morningstarnews.org/2026/10/authorities-in-egypt-hold-christian-incommunidado/",
+      "country": "Egypt",
+      "why": "Reports detention of a Coptic Christian over religious expression online."
+    },
+    {
+      "title": "Suspected Boko Haram Militants Threaten to Kill Pastor’s Wife, Sell Daughter",
+      "source": "International Christian Concern",
+      "date": "2026-10-30",
+      "link": "https://persecution.org/2026/10/30/suspected-boko-haram-militants-threaten-to-kill-pastors-wife-sell-daughter/",
+      "country": "Nigeria",
+      "why": "The pastor says his wife was singled out from a vehicle because she was Christian."
+    },
+    {
+      "title": "Christians Rendered Homeless in Chhattisgarh’s Tribal Belt",
+      "source": "International Christian Concern",
+      "date": "2026-10-27",
+      "link": "https://persecution.org/2026/10/27/christians-rendered-homeless-in-chhattisgarhs-tribal-belt/",
+      "country": "India",
+      "why": "Families were evicted or had homes destroyed after refusing to give up their faith."
+    },
+    {
+      "title": "Nigerian Christian woman sentenced to 14 years for sharing her faith",
+      "source": "Barnabas Aid",
+      "date": "2026-10-30",
+      "link": "https://www.barnabasaid.org/gb/news/nigerian-christian-woman-sentenced-to-14-years-for-sharing-her-faith/",
+      "country": "Nigeria",
+      "why": "Reports a conviction for sharing Christian faith, heard by a court in Borno State."
+    },
+    {
+      "title": "Christian families assaulted by extremists in West Bengal, India",
+      "source": "Barnabas Aid",
+      "date": "2026-10-30",
+      "link": "https://www.barnabasaid.org/gb/news/christian-families-assaulted-by-extremists-in-west-bengal-india/",
+      "country": "India",
+      "why": "Christian families were attacked and forced to perform religious rites of another faith."
+    }
+  ]
 }

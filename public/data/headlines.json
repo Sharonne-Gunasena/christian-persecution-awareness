@@ -1,9 +1,18 @@
 {
-  "updated": "2026-11-01T13:05:59.591Z",
+  "updated": "2026-11-01T18:57:06.245Z",
   "sources": [
     {
       "name": "Christian Today",
       "termsUrl": "https://www.christiantoday.com/rss-feeds"
+    },
+    {
+      "name": "Morning Star News"
+    },
+    {
+      "name": "International Christian Concern"
+    },
+    {
+      "name": "Barnabas Aid"
     },
     {
       "name": "BBC News",
@@ -16,6 +25,30 @@
       "link": "https://www.christiantoday.com/news/minorities-afraid-to-stand-up-for-rights-in-pakistan-says-brother-of-murdered-christian-minister",
       "date": "2026-10-31T08:43:00.000Z",
       "source": "Christian Today"
+    },
+    {
+      "title": "Christians in India Lose Ancestral Home for Faith in Christ",
+      "link": "https://morningstarnews.org/2026/10/christians-in-india-lose-ancestral-home-for-faith-in-christ/",
+      "date": "2026-10-30T00:00:00.000Z",
+      "source": "Morning Star News"
+    },
+    {
+      "title": "Suspected Boko Haram Militants Threaten to Kill Pastor’s Wife, Sell Daughter",
+      "link": "https://persecution.org/2026/10/30/suspected-boko-haram-militants-threaten-to-kill-pastors-wife-sell-daughter/",
+      "date": "2026-10-30T00:00:00.000Z",
+      "source": "International Christian Concern"
+    },
+    {
+      "title": "Nigerian Christian woman sentenced to 14 years for sharing her faith",
+      "link": "https://www.barnabasaid.org/gb/news/nigerian-christian-woman-sentenced-to-14-years-for-sharing-her-faith/",
+      "date": "2026-10-30T00:00:00.000Z",
+      "source": "Barnabas Aid"
+    },
+    {
+      "title": "Christian families assaulted by extremists in West Bengal, India",
+      "link": "https://www.barnabasaid.org/gb/news/christian-families-assaulted-by-extremists-in-west-bengal-india/",
+      "date": "2026-10-30T00:00:00.000Z",
+      "source": "Barnabas Aid"
     },
     {
       "title": "Violence and persecution driving global Christian exodus, report warns",
@@ -52,6 +85,18 @@
       "link": "https://www.bbc.co.uk/news/articles/cq8ezg6dy6xlo?at_medium=RSS&at_campaign=rss",
       "date": "2026-10-27T02:40:17.000Z",
       "source": "BBC News"
+    },
+    {
+      "title": "Authorities in Egypt Hold Christian Incommunicado",
+      "link": "https://morningstarnews.org/2026/10/authorities-in-egypt-hold-christian-incommunidado/",
+      "date": "2026-10-27T00:00:00.000Z",
+      "source": "Morning Star News"
+    },
+    {
+      "title": "Christians Rendered Homeless in Chhattisgarh’s Tribal Belt",
+      "link": "https://persecution.org/2026/10/27/christians-rendered-homeless-in-chhattisgarhs-tribal-belt/",
+      "date": "2026-10-27T00:00:00.000Z",
+      "source": "International Christian Concern"
     },
     {
       "title": "Jordan arrests three men suspected of deadly church attack after shootout",

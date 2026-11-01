@@ -64,12 +64,14 @@ export default function Headlines() {
           <section className="mt-10 max-w-2xl space-y-3 text-sm leading-relaxed text-stone-600 dark:text-stone-400">
             <h2 className="font-serif text-lg font-semibold text-stone-900 dark:text-stone-100">About these headlines</h2>
             <p>
-              Updated automatically from news feeds whose publishers allow their headlines to be shown on other sites.
-              Last updated <time dateTime={data.updated}>{dateFormat.format(new Date(data.updated))}</time>.
+              Updated automatically from two places: news feeds whose publishers allow their headlines to be shown on
+              other sites, and a daily search of specialist outlets and charity news pages, where each article is opened
+              and checked before it is listed. Last updated{' '}
+              <time dateTime={data.updated}>{dateFormat.format(new Date(data.updated))}</time>.
             </p>
             <p>
-              Headlines are picked by keyword matching. That can include a story where faith was not the main cause, or
-              miss a relevant one. Mistaken matches are removed by hand when spotted. Headlines are the publishers' own
+              Feed headlines are picked by keyword matching, which can include a story where faith was not the main cause,
+              or miss a relevant one. Mistaken matches are removed by hand when spotted. Headlines are the publishers' own
               words, not this site's.
             </p>
             {data.sources.length > 0 && (
@@ -78,7 +80,12 @@ export default function Headlines() {
                 {data.sources.map((s, i) => (
                   <span key={s.name}>
                     {i > 0 && ', '}
-                    {s.name} (<ExternalLink href={s.termsUrl}>feed terms</ExternalLink>)
+                    {s.name}
+                    {s.termsUrl && (
+                      <>
+                        {' '}(<ExternalLink href={s.termsUrl}>feed terms</ExternalLink>)
+                      </>
+                    )}
                   </span>
                 ))}
                 .

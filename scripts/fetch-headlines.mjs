@@ -8,7 +8,8 @@ const OUT = new URL('../public/data/headlines.json', import.meta.url);
 const { feeds } = JSON.parse(await readFile(new URL('./feeds.json', import.meta.url), 'utf8'));
 
 const groups = [];
-const termsUrls = new Map(feeds.map((f) => [f.source, f.termsUrl]));
+// Only sources we actually read a feed from get a "feed terms" link; others come from curation.json.
+const termsUrls = new Map(feeds.filter((f) => f.enabled).map((f) => [f.source, f.termsUrl]));
 
 for (const feed of feeds.filter((f) => f.enabled)) {
   try {

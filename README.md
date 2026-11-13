@@ -1,5 +1,6 @@
 # Persecuted for Faith
 https://sharonne-gunasena.github.io/christian-persecution-awareness/
+
 An awareness site about the persecution and killing of Christians around the world. It has four pages:
 
 - **Home**: an introduction, two key figures, and how the site uses words like "persecution" and "genocide".

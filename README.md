@@ -54,8 +54,6 @@ Feeds only cover outlets whose terms allow automatic use. To find reporting from
 4. It runs `npm test`. `tests/curation.test.js` checks every entry, so a malformed entry stops the update. If the tests pass, it commits to `main` and the deploy workflow publishes the site.
 5. If a **new edition** of the Open Doors, ACN, Pew or USCIRF report is out, it does **not** change the statistics. It opens a GitHub issue with the new figures and links, so a person can check them before `src/data/statistics.js` is updated.
 
-The routine is managed at [claude.ai/code/routines](https://claude.ai/code/routines). Pause or delete it there. To undo something it added, delete the entry from `add` (or add its link to `exclude`) and push.
-
 ### Feed terms (checked 30–31 October 2026)
 
 A feed is only enabled after checking that its publisher allows headlines to be shown on another website.

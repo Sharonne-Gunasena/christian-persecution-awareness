@@ -1,6 +1,10 @@
 {
-  "updated": "2026-11-15T07:23:12.715Z",
+  "updated": "2026-11-15T13:11:12.747Z",
   "sources": [
+    {
+      "name": "BBC News",
+      "termsUrl": "https://www.bbc.co.uk/news/10628494"
+    },
     {
       "name": "Christian Today",
       "termsUrl": "https://www.christiantoday.com/rss-feeds"
@@ -13,13 +17,15 @@
     },
     {
       "name": "Barnabas Aid"
-    },
-    {
-      "name": "BBC News",
-      "termsUrl": "https://www.bbc.co.uk/news/10628494"
     }
   ],
   "items": [
+    {
+      "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
+      "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-15T11:06:32.000Z",
+      "source": "BBC News"
+    },
     {
       "title": "Egyptian Christian killed in Libya after refusing to deny Jesus",
       "link": "https://www.christiantoday.com/news/egyptian-christian-killed-in-libya-after-refusing-to-deny-jesus",

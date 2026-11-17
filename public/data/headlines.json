@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-17T13:28:34.563Z",
+  "updated": "2026-11-17T19:18:47.116Z",
   "sources": [
-    {
-      "name": "BBC News",
-      "termsUrl": "https://www.bbc.co.uk/news/10628494"
-    },
     {
       "name": "Christian Today",
       "termsUrl": "https://www.christiantoday.com/rss-feeds"
+    },
+    {
+      "name": "BBC News",
+      "termsUrl": "https://www.bbc.co.uk/news/10628494"
     },
     {
       "name": "Morning Star News"
@@ -20,6 +20,12 @@
     }
   ],
   "items": [
+    {
+      "title": "17 Nigerian Christians died in captivity after Easter church abductions",
+      "link": "https://www.christiantoday.com/news/17-nigerian-christians-died-in-captivity-after-easter-church-abductions",
+      "date": "2026-11-17T15:46:00.000Z",
+      "source": "Christian Today"
+    },
     {
       "title": "Three men sentenced to death in Jordan over fatal church mass shooting",
       "link": "https://www.bbc.co.uk/news/articles/c3rrg9xgqlwpo?at_medium=RSS&at_campaign=rss",

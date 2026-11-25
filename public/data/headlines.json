@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-24T19:17:15.174Z",
+  "updated": "2026-11-25T01:36:23.062Z",
   "sources": [
-    {
-      "name": "Christian Today",
-      "termsUrl": "https://www.christiantoday.com/rss-feeds"
-    },
     {
       "name": "BBC News",
       "termsUrl": "https://www.bbc.co.uk/news/10628494"
+    },
+    {
+      "name": "Christian Today",
+      "termsUrl": "https://www.christiantoday.com/rss-feeds"
     },
     {
       "name": "Morning Star News"
@@ -20,6 +20,12 @@
     }
   ],
   "items": [
+    {
+      "title": "These North Koreans say they were spied on, beaten and jailed for being Christian",
+      "link": "https://www.bbc.co.uk/news/articles/cqgkv8kp7145o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-11-24T23:03:59.000Z",
+      "source": "BBC News"
+    },
     {
       "title": "Persecuted Christians speak of power of faith and forgiveness",
       "link": "https://www.christiantoday.com/news/persecuted-christians-speak-of-power-of-faith-and-forgiveness",

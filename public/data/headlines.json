@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-25T07:42:31.769Z",
+  "updated": "2026-11-25T13:39:52.130Z",
   "sources": [
-    {
-      "name": "BBC News",
-      "termsUrl": "https://www.bbc.co.uk/news/10628494"
-    },
     {
       "name": "Christian Today",
       "termsUrl": "https://www.christiantoday.com/rss-feeds"
+    },
+    {
+      "name": "BBC News",
+      "termsUrl": "https://www.bbc.co.uk/news/10628494"
     },
     {
       "name": "Morning Star News"
@@ -20,6 +20,12 @@
     }
   ],
   "items": [
+    {
+      "title": "Britain condemns violence against Christians in Ethiopia",
+      "link": "https://www.christiantoday.com/news/britain-condemns-violence-against-christians-in-ethiopia",
+      "date": "2026-11-25T10:26:00.000Z",
+      "source": "Christian Today"
+    },
     {
       "title": "These North Koreans say they were spied on, beaten and jailed for being Christian",
       "link": "https://www.bbc.co.uk/news/articles/cqgkv8kp7145o?at_medium=RSS&at_campaign=rss",
